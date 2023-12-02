@@ -1,1 +1,37 @@
 /* write your override styles here */
+/* css/cleanup.css */
+
+/* Override styles to hide graffiti tags */
+#wall .tag-1 {
+    display: none;
+  }
+  
+  #wall #tag-2 {
+    display: none;
+  }
+  
+  #wall #tag-3 {
+    display: none;
+  }
+  
+  #wall #tag-4 {
+    display: none;
+  }
+  
+  #wall #tag-5 {
+    display: none;
+  }
+  
+  #wall #tag-6 {
+    display: none;
+  }
+  
+  #wall #tag-7 {
+    display: none;
+  }
+  
+  /* Additional specificity for elements with both classes "slick" and "wicked" */
+  #wall .slick.wicked {
+    display: none;
+  }
+  
